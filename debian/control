@@ -1,0 +1,22 @@
+Source: libanyevent-http-stream-perl
+Section: perl
+Priority: optional
+Maintainer: Michael Stapelberg <michael@stapelberg.de>
+Build-Depends: debhelper (>= 8)
+Build-Depends-Indep: libanyevent-http-perl,
+ libanyevent-perl,
+ libmoose-perl,
+ perl
+Standards-Version: 3.9.2
+Homepage: http://search.cpan.org/dist/AnyEvent-HTTP-Stream/
+
+Package: libanyevent-http-stream-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends},
+ libanyevent-http-perl,
+ libanyevent-perl,
+ libmoose-perl
+Description: Streaming HTTP with AnyEvent
+ Unfinished. API might change.
+ .
+ This description was automagically extracted from the module by dh-make-perl.

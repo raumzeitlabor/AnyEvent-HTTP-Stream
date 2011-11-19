@@ -10,6 +10,8 @@ use AnyEvent::Util;
 use AnyEvent::HTTP;
 use Moose;
 
+our $VERSION = '1.0';
+
 has 'url' => (
     isa => 'Str',
     is => 'ro',
@@ -56,3 +58,31 @@ sub BUILD {
 }
 
 1
+
+__END__
+
+
+=head1 NAME
+
+AnyEvent::HTTP::Stream - Streaming HTTP with AnyEvent
+
+=head1 DESCRIPTION
+
+Unfinished. API might change.
+
+=head1 VERSION
+
+Version 0.1
+
+=head1 AUTHOR
+
+Michael Stapelberg, C<< <michael at stapelberg.de> >>
+
+=head1 LICENSE AND COPYRIGHT
+
+Copyright 2010-2011 Michael Stapelberg.
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of the BSD license.
+
+=cut

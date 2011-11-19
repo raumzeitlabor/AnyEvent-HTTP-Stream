@@ -1,0 +1,2 @@
+version=3
+http://search.cpan.org/dist/AnyEvent-HTTP-Stream/   .*/AnyEvent-HTTP-Stream-v?(\d[\d.-]+)\.(?:tar(?:\.gz|\.bz2)?|tgz|zip)$
