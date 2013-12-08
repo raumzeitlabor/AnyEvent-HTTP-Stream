@@ -4,6 +4,7 @@ Priority: optional
 Maintainer: Michael Stapelberg <michael@stapelberg.de>
 Build-Depends: debhelper (>= 8)
 Build-Depends-Indep: libanyevent-http-perl,
+ libmodule-install-perl,
  libanyevent-perl,
  libmoose-perl,
  perl
